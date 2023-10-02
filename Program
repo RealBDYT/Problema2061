@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    int m;
+
+    cout<<"Nr de vagoane"<<endl;
+    cin>>n;
+
+    cout<<"Nr de marfa"<<endl;
+    cin>>m;
+
+    cout<<"incarcatura din fiecare vagon"<<endl;
+    cout<<m / n<<endl;
+
+    return 0;
+}
